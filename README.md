@@ -2,7 +2,6 @@
 
 A Python package for analyzing coarse-grained molecular dynamics simulations, especially designed for CALVADOS coarse-grained models and similar systems.
 Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, and structure factor analysis.
-Optimized for parallel computation and publication-quality visualization.
 
 Note: Due to the storage limitation, the example case can be downloaded in [this link](http://ug.link/DXP4800PLUS-7C5/filemgr/share-download/?id=978ec046099e485481a93dafd922e2f9)
 
