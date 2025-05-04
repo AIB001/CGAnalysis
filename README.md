@@ -4,6 +4,7 @@ A Python package for analyzing coarse-grained molecular dynamics simulations, es
 Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, and structure factor analysis.
 Optimized for parallel computation and publication-quality visualization.
 
+
 ## Package Structure
 
 CGAnalysis/
@@ -82,3 +83,11 @@ times, msd, D = msd_analysis.compute_msd_and_diffusion(top, traj, n_frames=n_fra
 # Structure factor
 time_q, q_avg = structure_factor.compute_structure_factor(top, traj, n_frames=n_frames, n_windows=50, num_grid=32, n_workers=4)
 ```
+
+## Demo
+![contact_network_00100](https://github.com/user-attachments/assets/9dd4e0f6-8f2d-4e6e-84b3-6517ea2f62d9)
+![contact_network_00200](https://github.com/user-attachments/assets/c45a423c-1787-4a88-8cb1-8b8565231742)
+![structure_factor_q](https://github.com/user-attachments/assets/646407be-1d7f-45a3-a9f1-031e2e391573)
+![violin_00300](https://github.com/user-attachments/assets/a260b71d-1066-4c0f-bea9-7890315a8ff2)
+
+
