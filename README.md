@@ -4,6 +4,7 @@ A Python package for analyzing coarse-grained molecular dynamics simulations, es
 Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, and structure factor analysis.
 Optimized for parallel computation and publication-quality visualization.
 
+![Figure4_Phase_Diagram_01(1)](https://github.com/user-attachments/assets/aa764278-9d3a-4ed4-8a55-6bbb94c2a4e5)
 
 ## Package Structure
 
