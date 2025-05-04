@@ -8,29 +8,6 @@ Note: Due to the storage limitation, the example case can be downloaded in [this
 
 ![image](https://github.com/user-attachments/assets/97f6e761-5773-4e26-bebb-0c149b32ed4e)
 
-## Package Structure
-
-CGAnalysis/
- ├── CALVADOS_Analysis/
- │   ├── cluster/
- │   │   ├── size_distribution.py
- │   │   ├── time_evolution.py
- │   │   ├── largest_size.py
- │   ├── contact/
- │   │   ├── frequency.py
- │   │   ├── heatmap.py
- │   │   ├── interchain.py
- │   ├── diffusion/
- │   │   ├── msd_analysis.py
- │   ├── structure_factor/
- │   │   ├── structure_factor.py
- │   └── **init**.py
- ├── example/
- │   ├── example.py
- ├── setup.py
- ├── README.md
- ├── requirements.txt
-
 ## Installation
 
 Clone this repository and install in editable mode:
