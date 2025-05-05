@@ -103,5 +103,7 @@ if __name__ == '__main__': # To ensure multi_process begin successfully, the cod
 ![contact_network_00200](https://github.com/user-attachments/assets/c45a423c-1787-4a88-8cb1-8b8565231742)
 ![structure_factor_q](https://github.com/user-attachments/assets/646407be-1d7f-45a3-a9f1-031e2e391573)
 ![violin_00300](https://github.com/user-attachments/assets/a260b71d-1066-4c0f-bea9-7890315a8ff2)
+![largest_cluster_size](https://github.com/user-attachments/assets/1c9232a2-d89d-4055-8e99-f3895597df77)
+
 
 
