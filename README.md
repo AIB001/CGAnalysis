@@ -4,6 +4,8 @@ A Python package for analyzing coarse-grained molecular dynamics simulations, es
 Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, structure factor analysis, slab density map picture as well as Flory-Huggins Theory Fitting.
 
 Note: Due to the storage limitation, the example case can be downloaded in [this link](http://ug.link/DXP4800PLUS-7C5/filemgr/share-download/?id=04f0522372ce443f93a8aa6d1ecd0d1b)
+![image](https://github.com/user-attachments/assets/999775c5-84fe-414c-af0f-ea1e3dbb6eec)
+
 
 ![image](https://github.com/user-attachments/assets/97f6e761-5773-4e26-bebb-0c149b32ed4e)
 
