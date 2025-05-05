@@ -14,7 +14,7 @@ Note: Due to the storage limitation, the example case can be downloaded in [this
 Clone this repository and install in editable mode:
 
 ````bash
-git clone https://github.com/aib001/CGAnalysis.git #you can use ssh for a quicker fetch
+git clone https://github.com/aib001/CGAnalysis.git #you can use ssh for a quicker download
 cd CGAnalysis
 pip install -e .
 ````
@@ -28,6 +28,7 @@ Dependencies (listed in `requirements.txt`):
 - seaborn
 - tqdm
 - networkx
+- sklearn
 
 To install:
 
