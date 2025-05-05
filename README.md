@@ -80,7 +80,7 @@ if __name__ == '__main__': # To ensure multi_process begin successfully, the cod
     slab_top = os.path.join(base_dir, "slab_case", "checkpoint.pdb")
     slab_traj =os.path.join(base_dir, "slab_case", "FUS_1_163_500.dcd")
 
-    z, kde = density.analyze_slab_density(slab_top, slab_traj, bandwidth=0.1, last_n_frames=200, n_workers=10)
+    z, kde = density.analyze_slab_density(slab_top, slab_traj, bandwidth=5.0, last_n_frames=200, n_workers=10)
 
 
 ```
