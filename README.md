@@ -1,4 +1,4 @@
-# CGAnalysis
+# CGAnalysis V1.0--By A.I.B. 
 
 A Python package for analyzing coarse-grained molecular dynamics simulations, especially designed for CALVADOS coarse-grained models and similar systems.
 Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, structure factor analysis, slab density map picture as well as Flory-Huggins Theory Fitting.
