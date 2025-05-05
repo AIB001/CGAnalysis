@@ -1,7 +1,7 @@
 # CGAnalysis
 
 A Python package for analyzing coarse-grained molecular dynamics simulations, especially designed for CALVADOS coarse-grained models and similar systems.
-Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, structure factor analysis and slab density map picture.
+Supports cluster analysis, contact maps, inter-chain contact networks, MSD calculations, structure factor analysis, slab density map picture as well as Flory-Huggins Theory Fitting.
 
 Note: Due to the storage limitation, the example case can be downloaded in [this link](http://ug.link/DXP4800PLUS-7C5/filemgr/share-download/?id=04f0522372ce443f93a8aa6d1ecd0d1b)
 
@@ -81,6 +81,18 @@ if __name__ == '__main__': # To ensure multi_process begin successfully, the cod
     slab_traj =os.path.join(base_dir, "slab_case", "FUS_1_163_500.dcd")
 
     z, kde = density.analyze_slab_density(slab_top, slab_traj, bandwidth=5.0, last_n_frames=200, n_workers=10)
+
+    #############################
+    # Flory-Huggins Theory Fitting
+    #############################
+
+    from CALVADOS_Analysis.density import flory_huggins
+
+    T_all = [280, 285, 290, 295, 300, 305]
+    rho_H = [494.29, 468.50, 443.09, 415.71, 373.94, 341.96]
+    rho_L = [7.95, 9.39, 12.05, 11.89, 24.04, 26.68]
+
+    flory_huggins.analyze_flory_huggins(temp=T_all, rho_H=rho_H, rho_L=rho_L, rho_protein=900)
 
 
 ```
